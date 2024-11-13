@@ -44,11 +44,11 @@ For example:
 - To see the theme and layout for Customer A, navigate to:
   http://localhost:3000/customerA
 
-To see the theme and layout for Customer B, navigate to:
-http://localhost:3000/customerB
+- To see the theme and layout for Customer B, navigate to:
+  http://localhost:3000/customerB
 
-To see the theme and layout for Customer C, navigate to:
-http://localhost:3000/customerC
+- To see the theme and layout for Customer C, navigate to:
+  http://localhost:3000/customerC
 
 ## Project Structure
 
@@ -71,33 +71,33 @@ The project includes a dynamic theme and layout configuration system. Customer-s
 
 You can adjust the following in the theme configuration:
 
-- \*\*Colors: Set primary, secondary, and background colors.
-- \*\*Fonts: Configure font families and sizes.
-- \*\*Logos: Define customer-specific logos.
-- \*\*Layouts: Configure styles for sidebar, app bar, and overall layout.
+- Colors: Set primary, secondary, and background colors.
+- Fonts: Configure font families and sizes.
+- Logos: Define customer-specific logos.
+- Layouts: Configure styles for sidebar, app bar, and overall layout.
 
 ## Visibility Options
 
 The project includes toggles for controlling the visibility of various components, including:
 
-- \*\*Banner: show or hide
+- Banner: show or hide
 
-- \*\* Footer: show or hide
+- Footer: show or hide
 
 ## Customer Configurations
 
 The app is pre-configured with three sample customers:
 
-- \*\*Customer A: Uses the default theme, matching the default configuration.
-- \*\*Customer B: Has an app bar layout with the footer hidden.
-- \*\* Customer C: Features an app bar layout with both the banner and footer hidden.
+- Customer A: Uses the default theme, matching the default configuration.
+- Customer B: Has an app bar layout with the footer hidden.
+- Customer C: Features an app bar layout with both the banner and footer hidden.
 
 To switch between customer configurations, update the configuration file associated with the customer in /config.
 
 ## Customization
 
 Adding a New Customer Configuration: To add a new customer, create a new JSON configuration file with the desired settings and update the theme provider to load the new configuration.
-Modifying Theme and Layout: Update the default theme settings in /styles/theme.js or individual customer JSON files.
+Modifying Theme and Layout: Update the default theme settings in /styles/theme.ts or individual customer JSON files.
 
 ## Example Configuration
 
