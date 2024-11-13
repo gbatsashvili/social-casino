@@ -41,8 +41,8 @@ Customer B (with app bar layout and hidden footer): /customerB
 Customer C (with app bar layout and hidden banner and footer): /customerC
 For example:
 
-To see the theme and layout for Customer A, navigate to:
-http://localhost:3000/customerA
+- To see the theme and layout for Customer A, navigate to:
+  http://localhost:3000/customerA
 
 To see the theme and layout for Customer B, navigate to:
 http://localhost:3000/customerB
@@ -54,14 +54,14 @@ http://localhost:3000/customerC
 
 \*\* /public: Static assets like images and icons.
 
-- \*\* /components: Reusable UI components (e.g., Sidebar).
-- \*\* /configs: Contains the json config samples.
-- \*\* /lib: Contains utility functions and custom hooks (e.g., theme provider).
-- \*\* /shared: Contains the shared components.(e.g., Button)
-- \*\* /pages: Contains the Next.js page components.
-- \*\* /store: Contains global store
-- \*\* /styles: Includes global styles and theme settings.
-- \*\* /types: Contains the global types
+- /components: Reusable UI components (e.g., Sidebar).
+- /configs: Contains the json config samples.
+- /lib: Contains utility functions and custom hooks (e.g., theme provider).
+- /shared: Contains the shared components.(e.g., Button)
+- /pages: Contains the Next.js page components.
+- /store: Contains global store
+- /styles: Includes global styles and theme settings.
+- /types: Contains the global types
 
 ## Theming and Configuration
 
@@ -71,25 +71,26 @@ The project includes a dynamic theme and layout configuration system. Customer-s
 
 You can adjust the following in the theme configuration:
 
-Colors: Set primary, secondary, and background colors.
-Fonts: Configure font families, sizes, and weights.
-Logos: Define customer-specific logos.
-Layouts: Configure styles for sidebar, app bar, and overall layout.
+- \*\*Colors: Set primary, secondary, and background colors.
+- \*\*Fonts: Configure font families and sizes.
+- \*\*Logos: Define customer-specific logos.
+- \*\*Layouts: Configure styles for sidebar, app bar, and overall layout.
 
 ## Visibility Options
 
 The project includes toggles for controlling the visibility of various components, including:
 
-Banner: show or hide
-Footer: show or hide
+- \*\*Banner: show or hide
+
+- \*\* Footer: show or hide
 
 ## Customer Configurations
 
 The app is pre-configured with three sample customers:
 
-Customer A: Uses the default theme, matching the default configuration.
-Customer B: Has an app bar layout with the footer hidden.
-Customer C: Features an app bar layout with both the banner and footer hidden.
+- \*\*Customer A: Uses the default theme, matching the default configuration.
+- \*\*Customer B: Has an app bar layout with the footer hidden.
+- \*\* Customer C: Features an app bar layout with both the banner and footer hidden.
 
 To switch between customer configurations, update the configuration file associated with the customer in /config.
 
