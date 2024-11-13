@@ -12,7 +12,6 @@ import { useStore } from "@/store/store";
 interface ThemeContextType {
   theme: "light" | "dark";
   toggleTheme: () => void;
-  selectedTheme: unknown;
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
@@ -62,10 +61,9 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const themeConfig = configObject ? configObject : defaultTheme;
   const themeStyles =
     theme === "light" ? themeConfig.lightTheme : themeConfig.darkTheme;
-  const selectedTheme = themeStyles;
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme, selectedTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <StyledThemeProvider theme={themeStyles}>{children}</StyledThemeProvider>
     </ThemeContext.Provider>
   );

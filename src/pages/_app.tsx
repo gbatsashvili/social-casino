@@ -4,10 +4,11 @@ import { getLayout, LayoutEnum } from "@/shared/layout/layout";
 import { Footer } from "@/components/footer/footer";
 import { ThemeProvider } from "@/lib/themeProvider";
 import { useStore } from "@/store/store";
+import type { AppProps } from "next/app";
 import { useEffect, useState } from "react";
 import FullPageLoader from "@/components/pageLoader/pageLoader";
 
-function App({ Component, pageProps }: any) {
+function App({ Component, pageProps }: AppProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [isHydrated, setIsHydrated] = useState(false);
   // Determine the behavior of the layout either from global config if selected customer or the default sidebar style
