@@ -1,4 +1,4 @@
-# Next.js Themed Application with Styled-Components
+# Next.js Social Casino Application
 
 This project is a customizable, themeable web application built with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/), styled with [styled-components](https://styled-components.com/). The project allows for extensive customization based on customer configurations, enabling control over color schemes, fonts, layouts, logos, and visibility of specific components like banners and footer.
 
