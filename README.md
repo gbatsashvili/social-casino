@@ -2,6 +2,10 @@
 
 This project is a customizable, themeable web application built with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/), styled with [styled-components](https://styled-components.com/). The project allows for extensive customization based on customer configurations, enabling control over color schemes, fonts, layouts, logos, and visibility of specific components like banners and footer.
 
+## Demo Version (Vercel)
+
+The Demo version can be seen on this url [Social casino demo](https://social-casino-rosy.vercel.app/)
+
 ## Getting Started
 
 To get started with this project, clone the repository and install dependencies:
