@@ -67,8 +67,9 @@ export const TopGamesTitle = styled.div`
       border-radius: 10px;
       background-color: ${({ theme }) => theme.colors.blackLight};
       margin-left: 10px;
+
       &:hover {
-        background-color: #555555;
+        background-color: ${({ theme }) => theme.colors.lightGrey};
         svg {
           path {
             fill: #fff;

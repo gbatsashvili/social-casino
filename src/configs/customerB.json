@@ -29,18 +29,18 @@
         },
     "darkTheme": {
         "colors": {
-            "background": "#1e1e1e",
-            "blackDark": "#262626",
-            "blackLight": "#232323",
+            "background": "#000000",
+            "blackDark": "#0B192C",
+            "blackLight": "#1E3E62",
             "text": "#333",
             "white": "#f9f9f9",
-            "blue": "#009bff",
+            "blue": "#FF6500",
             "green": "#0fa587",
             "lightGrey": "#2f3031",
             "buttonPrimary": "#1e1e1e",
             "buttonSecondary": "#ffcb8a",
             "btnColorLight": "#f9f9f9",
-            "btnColorDark": "#333"
+            "btnColorDark": "#1E3E62"
         },
         "fonts": {
           "primary": "Red Hat Display",

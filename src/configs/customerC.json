@@ -29,12 +29,12 @@
         },
     "darkTheme": {
         "colors": {
-            "background": "#1e1e1e",
-            "blackDark": "#262626",
+            "background": "#151515",
+            "blackDark": "#A91D3A",
             "blackLight": "#232323",
             "text": "#333",
             "white": "#f9f9f9",
-            "blue": "#009bff",
+            "blue": "#C73659",
             "green": "#0fa587",
             "lightGrey": "#2f3031",
             "buttonPrimary": "#1e1e1e",
